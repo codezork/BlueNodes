@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="de.bluenodes.bluenodescontroller.StructureActivity">
+
+    <TextView
+        android:id="@+id/structure_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="TITLE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/assetIcon"
+        android:background="@color/background_list_back"
+        android:layout_below="@+id/text_view_structureName"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/chart" />
+
+    <EditText
+        android:id="@+id/structureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="textCapSentences"
+        android:layout_below="@+id/text_view_structureName"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/assetIcon" />
+
+    <TextView
+        android:id="@+id/text_view_structureName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/structureName"
+        android:textColor="#fff"
+        android:layout_below="@+id/structure_title"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_save"
+        android:layout_below="@+id/structureName"
+        android:layout_alignParentStart="true"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/assign"
+        android:id="@+id/assign"
+        android:layout_alignTop="@+id/save_button"
+        android:layout_toEndOf="@+id/save_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_statistics"
+        android:id="@+id/power_statistics"
+        android:drawableLeft="@drawable/action_bar_icon_stat"
+        android:gravity="left|center_vertical"
+        android:layout_below="@+id/save_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/assign" />
+
+</RelativeLayout>

@@ -1,0 +1,1762 @@
+# depslib dependency file v1.0
+1493072598 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\s132.c
+
+1459278881 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\led_config.c
+	"led_config.h"
+	"nrf_soc.h"
+	"SEGGER_RTT.h"
+
+1438813590 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\led_config.h
+	"boards.h"
+	<stdint.h>
+
+1482862160 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\boards.h
+	"nrf_gpio.h"
+	"pca10028.h"
+	"pca10031.h"
+	"bluenodes.h"
+
+1494877725 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_gpio.h
+	"nrf.h"
+	"nrf_peripherals.h"
+	"nrf_assert.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1492908058 c:\nrf5_sdk_13\components\device\nrf.h
+	"nrf51.h"
+	"nrf51_bitfields.h"
+	"nrf51_deprecated.h"
+	"nrf52840.h"
+	"nrf52840_bitfields.h"
+	"nrf51_to_nrf52840.h"
+	"nrf52_to_nrf52840.h"
+	"nrf52.h"
+	"nrf52_bitfields.h"
+	"nrf51_to_nrf52.h"
+	"nrf52_name_change.h"
+	"compiler_abstraction.h"
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51_bitfields.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51_deprecated.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52840.h
+	"core_cm4.h"
+	"system_nrf52840.h"
+
+1489144082 c:\nrf5_sdk_13\components\toolchain\system_nrf52840.h
+	<stdint.h>
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52840_bitfields.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51_to_nrf52840.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52_to_nrf52840.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52.h
+	"core_cm4.h"
+	"system_nrf52.h"
+
+1489144082 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\system_nrf52.h
+	<stdint.h>
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52_bitfields.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51_to_nrf52.h
+
+1489144084 c:\nrf5_sdk_13\components\device\nrf52_name_change.h
+
+1489144082 c:\nrf5_sdk_13\components\device\compiler_abstraction.h
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_peripherals.h
+	"nrf51422_peripherals.h"
+	"nrf51802_peripherals.h"
+	"nrf51822_peripherals.h"
+	"nrf52832_peripherals.h"
+	"nrf52840_peripherals.h"
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51422_peripherals.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51802_peripherals.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51822_peripherals.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52832_peripherals.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf52840_peripherals.h
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\nrf_assert.h
+	<stdint.h>
+	"nrf.h"
+	"app_error.h"
+
+1492948983 c:\nrf5_sdk_13\components\libraries\util\app_error.h
+	<stdint.h>
+	<stdio.h>
+	<stdbool.h>
+	"nrf.h"
+	"sdk_errors.h"
+	"nordic_common.h"
+	"app_error_weak.h"
+	"ant_error.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\sdk_errors.h
+	<stdint.h>
+	"nrf_error.h"
+	"sdk_config.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_error.h
+
+1495576801 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\sdk_config.h
+	"app_config.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\nordic_common.h
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\app_error_weak.h
+
+1447065226 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\pca10028.h
+
+1447065226 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\pca10031.h
+
+1494767663 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\bluenodes.h
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_soc.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_svc.h
+	"stdint.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_error_soc.h
+	"nrf_error.h"
+
+1418835350 c:\segger\rtt\rtt\segger_rtt.h
+
+1489144082 c:\nrf5_sdk_13\components\device\nrf51.h
+	"core_cm0.h"
+	"system_nrf51.h"
+
+1489144082 c:\nrf5_sdk_13\components\toolchain\system_nrf51.h
+	<stdint.h>
+
+1492875035 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\bas_adc.c
+	"bas_adc.h"
+	"ble_bas.h"
+	<string.h>
+	"nordic_common.h"
+	"ble_srv_common.h"
+	"app_util.h"
+	"app_scheduler.h"
+	"ble_bas.h"
+	"nrf_sdm.h"
+	"SEGGER_RTT.h"
+
+1482870635 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\bas_adc.h
+	<stdint.h>
+	<stdbool.h>
+	"ble.h"
+	"ble_srv_common.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble.h
+	"ble_ranges.h"
+	"ble_types.h"
+	"ble_gap.h"
+	"ble_l2cap.h"
+	"ble_gatt.h"
+	"ble_gattc.h"
+	"ble_gatts.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_ranges.h
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_types.h
+	<stdint.h>
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_gap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_l2cap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_err.h"
+	"nrf_svc.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_err.h
+	"nrf_error.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_gatt.h
+	"ble_types.h"
+	"ble_ranges.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_gattc.h
+	"ble_gatt.h"
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+	"nrf_error.h"
+	"nrf.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_gatts.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_l2cap.h"
+	"ble_gap.h"
+	"ble_gatt.h"
+	"nrf_svc.h"
+
+1489147326 c:\nrf5_sdk_13\components\ble\common\ble_srv_common.h
+	<stdint.h>
+	<stdbool.h>
+	"ble_types.h"
+	"app_util.h"
+	"ble.h"
+	"ble_gap.h"
+	"ble_gatt.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\app_util.h
+	<stdint.h>
+	<stdbool.h>
+	"compiler_abstraction.h"
+	"nordic_common.h"
+	"nrf.h"
+
+1489147326 c:\nrf5_sdk_13\components\ble\ble_services\ble_bas\ble_bas.h
+	<stdint.h>
+	<stdbool.h>
+	"ble.h"
+	"ble_srv_common.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\scheduler\app_scheduler.h
+	"sdk_config.h"
+	<stdint.h>
+	"app_error.h"
+	"app_util.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_sdm.h
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_soc.h"
+	"nrf_error_sdm.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_error_sdm.h
+	"nrf_error.h"
+
+1493076546 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\nrf_adv_conn.c
+	"nrf_adv_conn.h"
+	"led_config.h"
+	"rbc_mesh.h"
+	"ble.h"
+	"ble_advdata.h"
+	"nrf_assert.h"
+	"nrf_gpio.h"
+	"app_error.h"
+	"SEGGER_RTT.h"
+	<stdbool.h>
+	<string.h>
+	<stdio.h>
+
+1482802671 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\nrf_adv_conn.h
+	<ble.h>
+	<stdint.h>
+	<stdbool.h>
+
+1492907698 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\rbc_mesh.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+	"nrf.h"
+	"nrf_sdm.h"
+	"ble.h"
+	"dfu_types_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\dfu_types_mesh.h
+	<stdint.h>
+	<stdbool.h>
+
+1489147326 c:\nrf5_sdk_13\components\ble\common\ble_advdata.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	"ble.h"
+	"app_util.h"
+
+1492879086 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\current_cube.c
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"nordic_common.h"
+	"nrf_error.h"
+	"nrf_soc.h"
+	"app_timer.h"
+	"app_scheduler.h"
+	"app_util_platform.h"
+	"current_cube.h"
+	"config.h"
+	"common.h"
+	"rbc_mesh.h"
+	"fds.h"
+	"SEGGER_RTT.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\timer\app_timer.h
+	"sdk_config.h"
+	"app_error.h"
+	"app_util.h"
+	"compiler_abstraction.h"
+	<stdint.h>
+	<stdbool.h>
+	<stdio.h>
+	"FreeRTOSConfig.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\app_util_platform.h
+	<stdint.h>
+	"compiler_abstraction.h"
+	"nrf.h"
+	"nrf_soc.h"
+	"nrf_nvic.h"
+	"nrf_assert.h"
+	"app_error.h"
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_nvic.h
+	<stdint.h>
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1492877975 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\current_cube.h
+	"rbc_mesh.h"
+
+1493650405 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\config.h
+
+1494788901 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\common.h
+	"mesh.h"
+
+1492907714 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\mesh.h
+
+1489147328 c:\nrf5_sdk_13\components\libraries\fds\fds.h
+	<stdint.h>
+	<stdbool.h>
+	"sdk_errors.h"
+	"app_util_platform.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\event_handler.c
+	"event_handler.h"
+	"rbc_mesh_common.h"
+	"app_error.h"
+	"timeslot.h"
+	"transport_control.h"
+	"mesh_packet.h"
+	"fifo.h"
+	"nrf_soc.h"
+	"toolchain.h"
+	"handle_storage.h"
+	<string.h>
+	"rbc_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\event_handler.h
+	"radio_control.h"
+	"timer.h"
+	"timer_scheduler.h"
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\radio_control.h
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\timer.h
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\timer_scheduler.h
+	<stdint.h>
+	"timer.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\rbc_mesh_common.h
+	"toolchain.h"
+	<stdint.h>
+	"app_error.h"
+	"SEGGER_RTT.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\toolchain.h
+	"nrf.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\timeslot.h
+	<stdint.h>
+	<stdbool.h>
+	"timer.h"
+	"nrf_sdm.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\transport_control.h
+	<stdint.h>
+	"mesh_packet.h"
+	"ble.h"
+	"nrf51.h"
+	"nrf.h"
+	"rbc_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\mesh_packet.h
+	<stdint.h>
+	<stdbool.h>
+	"rbc_mesh.h"
+	"toolchain.h"
+	"dfu_types_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\fifo.h
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\handle_storage.h
+	<stdint.h>
+	<stdbool.h>
+	"timer.h"
+	"mesh_packet.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\fifo.c
+	"fifo.h"
+	"rbc_mesh_common.h"
+	"nrf_error.h"
+	<string.h>
+
+1493416645 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\mesh_gatt.c
+	"mesh_gatt.h"
+	"rbc_mesh.h"
+	"version_handler.h"
+	"transport_control.h"
+	"app_error.h"
+	"timer.h"
+	"ble_gatts.h"
+	"ble_err.h"
+	<string.h>
+	"SEGGER_RTT.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\mesh_gatt.h
+	"trickle.h"
+	"rbc_mesh.h"
+	"ble.h"
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\trickle.h
+	"nrf.h"
+	"nrf.h"
+	"toolchain.h"
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\version_handler.h
+	"rbc_mesh.h"
+	"ble_gap.h"
+	"mesh_packet.h"
+	<stdint.h>
+	<stdbool.h>
+
+1495577552 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\main.c
+	"rbc_mesh.h"
+	"nrf_adv_conn.h"
+	"nrf_soc.h"
+	"softdevice_handler.h"
+	"nrf_drv_rng.h"
+	<string.h>
+	"app_button.h"
+	"app_timer.h"
+	"bas_adc.h"
+	"fstorage.h"
+	"fstorage_internal_defs.h"
+	"led_config.h"
+	"mesh.h"
+	"config.h"
+	"common.h"
+	"peripheral.h"
+	"current_cube.h"
+	"dfu_app.h"
+	"SEGGER_RTT.h"
+
+1492900982 c:\nrf5_sdk_13\components\softdevice\common\softdevice_handler\softdevice_handler.h
+	<stdlib.h>
+	"nordic_common.h"
+	"nrf_sdm.h"
+	"app_error.h"
+	"app_util.h"
+	"ble_stack_handler_types.h"
+	"ant_stack_handler_types.h"
+	"ble.h"
+
+1489147328 c:\nrf5_sdk_13\components\softdevice\common\softdevice_handler\ble_stack_handler_types.h
+	<stdlib.h>
+	"ble.h"
+	"nrf_sdm.h"
+	"app_error.h"
+	"app_util.h"
+	"sdk_config.h"
+
+1489147328 c:\nrf5_sdk_13\components\softdevice\common\softdevice_handler\ant_stack_handler_types.h
+	<stdlib.h>
+	<stdint.h>
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\rng\nrf_drv_rng.h
+	<stdbool.h>
+	<stdint.h>
+	"nrf_rng.h"
+	"sdk_errors.h"
+	"sdk_config.h"
+	"nrf_drv_common.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_rng.h
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+	"nrf.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\common\nrf_drv_common.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+	"sdk_errors.h"
+	"sdk_common.h"
+	"nrf_assert.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\sdk_common.h
+	<stdint.h>
+	<stdbool.h>
+	<string.h>
+	"sdk_config.h"
+	"nordic_common.h"
+	"compiler_abstraction.h"
+	"sdk_os.h"
+	"sdk_errors.h"
+	"app_util.h"
+	"sdk_macros.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\sdk_os.h
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\sdk_macros.h
+
+1489147328 c:\nrf5_sdk_13\components\libraries\button\app_button.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+	"app_error.h"
+	"nrf_gpio.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\fstorage\fstorage.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_section.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\experimental_section_vars\nrf_section.h
+	"nordic_common.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\fstorage\fstorage_internal_defs.h
+	"nrf.h"
+
+1495664807 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\peripheral.h
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\dfu_app.h
+	<stdint.h>
+	"dfu_types_mesh.h"
+	"bl_if.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\bl_if.h
+	<stdint.h>
+	"dfu_types_mesh.h"
+
+1492959447 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\mesh_packet.c
+	"mesh_packet.h"
+	"app_error.h"
+	<string.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\radio_control.c
+	"radio_control.h"
+	"rbc_mesh_common.h"
+	"timeslot.h"
+	"trickle.h"
+	"fifo.h"
+	"nrf.h"
+	"nrf_sdm.h"
+	"app_error.h"
+	"toolchain.h"
+	"rbc_mesh.h"
+	"mesh_packet.h"
+	<stdbool.h>
+	<string.h>
+
+1495747091 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\peripheral.c
+	"boards.h"
+	"led_config.h"
+	"nrf_timer.h"
+	"nrf_gpio.h"
+	"nrf_drv_gpiote.h"
+	"nrf_drv_ppi.h"
+	"nrf_drv_timer.h"
+	"nrf_drv_common.h"
+	"nrf_delay.h"
+	"nrf_drv_saadc.h"
+	"nrf_drv_spi.h"
+	"app_gpiote.h"
+	"app_util_platform.h"
+	"app_timer.h"
+	"app_error.h"
+	<stdbool.h>
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	"config.h"
+	"mesh.h"
+	"common.h"
+	"peripheral.h"
+	"bas_adc.h"
+	"SEGGER_RTT.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_timer.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+	"nrf_peripherals.h"
+	"nrf.h"
+	"nrf_assert.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\gpiote\nrf_drv_gpiote.h
+	"nrf_gpiote.h"
+	"nrf_gpio.h"
+	"sdk_errors.h"
+	<stdint.h>
+	<stdbool.h>
+	"sdk_config.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_gpiote.h
+	"nrf_peripherals.h"
+	"nrf.h"
+	<stdint.h>
+	<stddef.h>
+	<stdbool.h>
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\ppi\nrf_drv_ppi.h
+	"sdk_errors.h"
+	"nrf_ppi.h"
+	<stdbool.h>
+	<stdint.h>
+	"sdk_resources.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_ppi.h
+	<stddef.h>
+	"nrf.h"
+	"nrf_peripherals.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\sdk_resources.h
+	"nrf_sd_def.h"
+	"nrf_gzll_resources.h"
+	"nrf_esb_resources.h"
+
+1489147328 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_sd_def.h
+	<stdint.h>
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\timer\nrf_drv_timer.h
+	"nordic_common.h"
+	"sdk_config.h"
+	"nrf_timer.h"
+	"sdk_errors.h"
+	"nrf_assert.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\delay\nrf_delay.h
+	"nrf.h"
+
+1492904974 c:\nrf5_sdk_13\components\drivers_nrf\saadc\nrf_drv_saadc.h
+	"sdk_config.h"
+	"nrf_saadc.h"
+	"sdk_errors.h"
+	"nrf_drv_common.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_saadc.h
+	<stdbool.h>
+	<stddef.h>
+	"nrf.h"
+	"nrf_assert.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\gpiote\app_gpiote.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+	"app_error.h"
+	"app_util.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\transport_control.c
+	<string.h>
+	"transport_control.h"
+	"radio_control.h"
+	"mesh_gatt.h"
+	"mesh_packet.h"
+	"timer.h"
+	"rbc_mesh.h"
+	"event_handler.h"
+	"timeslot.h"
+	"timer_scheduler.h"
+	"rbc_mesh_common.h"
+	"version_handler.h"
+	"mesh_aci.h"
+	"app_error.h"
+	"SEGGER_RTT.h"
+	"nrf_gpio.h"
+	"boards.h"
+	<stdio.h>
+	<handle.h>
+	"dfu_types_mesh.h"
+	"dfu_app.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\mesh_aci.h
+	"rbc_mesh.h"
+	"toolchain.h"
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\trickle.c
+	"trickle.h"
+	"rbc_mesh_common.h"
+	"app_error.h"
+	"rand.h"
+	"timer.h"
+	"nrf_soc.h"
+	"nrf51_bitfields.h"
+	"nrf.h"
+	<string.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\rand.h
+	<stdint.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\version_handler.c
+	"version_handler.h"
+	"handle_storage.h"
+	"transport_control.h"
+	"timer.h"
+	"timer_scheduler.h"
+	"event_handler.h"
+	"rbc_mesh_common.h"
+	"toolchain.h"
+	"trickle.h"
+	"rbc_mesh.h"
+	"mesh_packet.h"
+	"mesh_gatt.h"
+	"mesh_aci.h"
+	"nrf_error.h"
+	"app_error.h"
+	"fifo.h"
+	<stdlib.h>
+	<stddef.h>
+	<string.h>
+
+1493244769 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\rbc_mesh.c
+	"rbc_mesh.h"
+	"rbc_mesh_common.h"
+	"timeslot.h"
+	"timer_scheduler.h"
+	"event_handler.h"
+	"version_handler.h"
+	"transport_control.h"
+	"mesh_packet.h"
+	"mesh_gatt.h"
+	"dfu_app.h"
+	"fifo.h"
+	"softdevice_handler.h"
+	"app_error.h"
+	"nrf_sdm.h"
+	<string.h>
+	"SEGGER_RTT.h"
+
+1489144082 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\system_nrf52.c
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+	"system_nrf52.h"
+
+1493415168 source:c:\nrf5_sdk_13\components\ble\ble_services\ble_bas\ble_bas.c
+	"sdk_common.h"
+	"ble_bas.h"
+	<string.h>
+	"ble_srv_common.h"
+
+1489147326 source:c:\nrf5_sdk_13\components\ble\common\ble_advdata.c
+	"ble_advdata.h"
+	"ble_gap.h"
+	"ble_srv_common.h"
+	"sdk_common.h"
+
+1489147326 source:c:\nrf5_sdk_13\components\ble\common\ble_conn_params.c
+	"ble_conn_params.h"
+	<stdlib.h>
+	"nordic_common.h"
+	"ble_hci.h"
+	"app_timer.h"
+	"ble_srv_common.h"
+	"app_util.h"
+
+1489147326 c:\nrf5_sdk_13\components\ble\common\ble_conn_params.h
+	<stdint.h>
+	"ble.h"
+	"ble_srv_common.h"
+
+1488789336 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\ble_hci.h
+
+1489147326 source:c:\nrf5_sdk_13\components\ble\common\ble_srv_common.c
+	"ble_srv_common.h"
+	<string.h>
+	"nordic_common.h"
+	"app_error.h"
+	"ble.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\ble_flash\ble_flash.c
+	"ble_flash.h"
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"nrf_soc.h"
+	"nordic_common.h"
+	"nrf_error.h"
+	"nrf.h"
+	"app_util.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\ble_flash\ble_flash.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\common\nrf_drv_common.c
+	<stddef.h>
+	"nrf_drv_common.h"
+	"nrf_assert.h"
+	"app_util_platform.h"
+	"nrf_peripherals.h"
+	"nrf_drv_power.h"
+	"nrf_drv_clock.h"
+	"nrf_soc.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\bootloader_util.c
+	"bootloader_util.h"
+	<stdint.h>
+	<string.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\bootloader_util.h
+	<stdint.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\dfu_app.c
+	<string.h>
+	"dfu_app.h"
+	"rtt_log.h"
+	"bootloader_util.h"
+	"timeslot.h"
+	"rbc_mesh.h"
+	"dfu_types_mesh.h"
+	"toolchain.h"
+	"bl_if.h"
+	"nrf_nvic.h"
+	"nrf_flash.h"
+	"mesh_packet.h"
+	"rbc_mesh_common.h"
+	"timer_scheduler.h"
+	"mesh_flash.h"
+	"rand.h"
+	"transport_control.h"
+	"app_error.h"
+	"dfu_util.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\rtt_log.h
+	<stdarg.h>
+	"SEGGER_RTT.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\nrf_flash.h
+	<stdint.h>
+	"nrf.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\mesh_flash.h
+	<stdint.h>
+	<stdbool.h>
+	"timer.h"
+	"bl_if.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\dfu_util.h
+	<stdint.h>
+	"dfu_types_mesh.h"
+	"nrf.h"
+
+1492907782 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\dfu_util.c
+	<stdbool.h>
+	<string.h>
+	"dfu_util.h"
+	"nrf_bootloader_info.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_info.h
+	"nrf.h"
+	"nrf_mbr.h"
+	"nrf_sdm.h"
+	"nrf_mbr.h"
+
+1489144048 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf_mbr.h
+	"nrf_svc.h"
+	<stdint.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\handle_storage.c
+	<stddef.h>
+	<string.h>
+	<stdlib.h>
+	"handle_storage.h"
+	"trickle.h"
+	"event_handler.h"
+	"fifo.h"
+	"rbc_mesh_common.h"
+	"timer.h"
+	"app_error.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\mesh_aci.c
+	<string.h>
+	"mesh_aci.h"
+	"rbc_mesh_common.h"
+	"serial_handler.h"
+	"event_handler.h"
+	"version.h"
+	"mesh_packet.h"
+	"rtt_log.h"
+	"transport.h"
+	"bootloader.h"
+	"dfu_app.h"
+	"dfu_types_mesh.h"
+	"nrf_nvic.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\serial_handler.h
+	"serial_evt.h"
+	"serial_command.h"
+	<stdint.h>
+	<stdbool.h>
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\serial_evt.h
+	<stdint.h>
+	<stdbool.h>
+	"toolchain.h"
+	"mesh_aci.h"
+	"dfu_types_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\serial_command.h
+	<stdint.h>
+	"rbc_mesh.h"
+	"toolchain.h"
+	"dfu_types_mesh.h"
+
+1492907276 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\include\version.h
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\mesh_flash.c
+	<string.h>
+	"mesh_flash.h"
+	"nrf.h"
+	"event_handler.h"
+	"fifo.h"
+	"nrf_flash.h"
+	"nrf_error.h"
+	"toolchain.h"
+	"app_error.h"
+	"dfu_util.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\nrf_flash.c
+	<stdint.h>
+	"nrf_flash.h"
+	"nrf.h"
+	"nrf51_bitfields.h"
+	"nrf.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\rand.c
+	"rand.h"
+	<nrf_error.h>
+	<nrf_soc.h>
+	<fcntl.h>
+	<unistd.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\serial_handler_uart.c
+	"serial_handler.h"
+	"event_handler.h"
+	"rbc_mesh_common.h"
+	"fifo.h"
+	"nrf_soc.h"
+	"boards.h"
+	"nrf_gpio.h"
+	"app_error.h"
+	"app_util_platform.h"
+	<string.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\timer.c
+	<stddef.h>
+	"timer.h"
+	"event_handler.h"
+	"toolchain.h"
+	"app_error.h"
+	"nrf.h"
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\timer_scheduler.c
+	<stddef.h>
+	"timer_scheduler.h"
+	"event_handler.h"
+	"toolchain.h"
+	"rbc_mesh_common.h"
+	"nrf_error.h"
+	<stdio.h>
+
+1492907276 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\src\rbc_mesh\src\timeslot.c
+	"timeslot.h"
+	<stdbool.h>
+	<stdint.h>
+	<string.h>
+	<stdio.h>
+	"radio_control.h"
+	"timer.h"
+	"transport_control.h"
+	"event_handler.h"
+	"rbc_mesh_common.h"
+	"dfu_app.h"
+	"mesh_flash.h"
+	"app_error.h"
+	"nrf_sdm.h"
+	"nrf_soc.h"
+
+1493069915 source:c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\startup_nrf52.s
+	"startup_config.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\log\nrf_log.h
+	"sdk_common.h"
+	"nrf_strerror.h"
+	"nrf_log_internal.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\log\src\nrf_log_internal.h
+	"sdk_common.h"
+	"nrf.h"
+	"nrf_error.h"
+	"app_util.h"
+	<stdint.h>
+	<stdbool.h>
+
+1489147328 c:\nrf5_sdk_13\components\libraries\log\nrf_log_ctrl.h
+	"sdk_config.h"
+	"sdk_errors.h"
+	<stdint.h>
+	<stdbool.h>
+	"nrf_log_ctrl_internal.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\log\src\nrf_log_ctrl_internal.h
+	"sdk_common.h"
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\gpiote\nrf_drv_gpiote.c
+	"sdk_common.h"
+	"nrf_drv_gpiote.h"
+	"nrf_drv_common.h"
+	"app_util_platform.h"
+	"nrf_assert.h"
+	"nrf_bitmask.h"
+	<string.h>
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\util\nrf_bitmask.h
+	"compiler_abstraction.h"
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\ppi\nrf_drv_ppi.c
+	"sdk_common.h"
+	<stdlib.h>
+	"nrf.h"
+	"nrf_drv_ppi.h"
+	"nrf_drv_common.h"
+	"nrf_ppi.h"
+	"app_util_platform.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\saadc\nrf_drv_saadc.c
+	"sdk_common.h"
+	"nrf_drv_saadc.h"
+	"nrf_assert.h"
+	"nrf_drv_common.h"
+	"app_util_platform.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\rng\nrf_drv_rng.c
+	"sdk_common.h"
+	<stdint.h>
+	<stddef.h>
+	"nrf_drv_rng.h"
+	"nrf_drv_common.h"
+	"nordic_common.h"
+	"nrf_assert.h"
+	"nrf_queue.h"
+	"softdevice_handler.h"
+	"nrf_soc.h"
+	"app_util_platform.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\queue\nrf_queue.h
+	<stdint.h>
+	<stdint.h>
+	<string.h>
+	"nrf_assert.h"
+	"sdk_errors.h"
+	"app_util.h"
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\timer\nrf_drv_timer.c
+	"sdk_common.h"
+	"nrf_drv_timer.h"
+	"nrf_drv_common.h"
+	"app_util_platform.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\ble_dfu\nrf_ble_dfu.c
+	"nrf_ble_dfu.h"
+	<stddef.h>
+	"sdk_common.h"
+	"nrf_dfu_req_handler.h"
+	"nrf_dfu_transport.h"
+	"nrf_dfu_mbr.h"
+	"nrf_bootloader_info.h"
+	"ble_conn_params.h"
+	"boards.h"
+	"nrf_log.h"
+	"ble_hci.h"
+	"app_timer.h"
+	"softdevice_handler_appsh.h"
+	"nrf_log.h"
+	"nrf_delay.h"
+	"nrf_dfu_handling_error.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\ble_dfu\nrf_ble_dfu.h
+	<stdint.h>
+	"ble_gatts.h"
+	"ble.h"
+
+1489147328 c:\nrf5_sdk_13\components\softdevice\common\softdevice_handler\softdevice_handler_appsh.h
+	"softdevice_handler.h"
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_flash.c
+	"nrf_dfu_flash.h"
+	"nrf_dfu_types.h"
+	"nrf_nvmc.h"
+	"nrf_log.h"
+	"softdevice_handler.h"
+	"fstorage.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_flash.h
+	<stdint.h>
+	<stdbool.h>
+	"fstorage.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_types.h
+	<stdint.h>
+	<stddef.h>
+	"nrf.h"
+	"nrf_mbr.h"
+	"nrf_sdm.h"
+	"nrf_sdm.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_nvmc.h
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\clock\nrf_drv_clock.c
+	"sdk_common.h"
+	"nrf_drv_clock.h"
+	"nrf_error.h"
+	"app_util_platform.h"
+	"softdevice_handler.h"
+	"nrf_sdm.h"
+	"nrf_soc.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\clock\nrf_drv_clock.h
+	<stdbool.h>
+	<stdint.h>
+	"sdk_errors.h"
+	"nrf_assert.h"
+	"nrf_clock.h"
+	"sdk_config.h"
+	"nrf_drv_common.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_clock.h
+	<stddef.h>
+	<stdbool.h>
+	"nrf.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu.c
+	"nrf_dfu.h"
+	"nrf_dfu_transport.h"
+	"nrf_dfu_utils.h"
+	"nrf_bootloader_app_start.h"
+	"nrf_dfu_settings.h"
+	"nrf_gpio.h"
+	"app_scheduler.h"
+	"app_timer.h"
+	"nrf_log.h"
+	"boards.h"
+	"nrf_bootloader_info.h"
+	"nrf_dfu_req_handler.h"
+	"nrf_delay.h"
+	"nrf_soc.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu.h
+	<stdint.h>
+	<stdbool.h>
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_transport.h
+	<stdint.h>
+	"nrf_section.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_utils.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_dfu_types.h"
+	"app_timer.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_app_start.h
+	<stdint.h>
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_settings.h
+	<stdint.h>
+	"app_util_platform.h"
+	"nrf_dfu_types.h"
+	"nrf_dfu_flash.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_req_handler.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_dfu_types.h"
+	"nrf_dfu_handling_error.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_handling_error.h
+	"nrf_dfu_types.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_handling_error.c
+	"nrf_dfu_handling_error.h"
+	"nrf_log.h"
+	"nrf_dfu_req_handler.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_mbr.c
+	"nrf_dfu_mbr.h"
+	"nrf_mbr.h"
+	"nrf_dfu_types.h"
+	"nrf_log.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_mbr.h
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_settings.c
+	"nrf_dfu_settings.h"
+	"nrf_dfu_flash.h"
+	"nrf_log.h"
+	"crc32.h"
+	<string.h>
+	"app_scheduler.h"
+	"nrf_delay.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\crc32\crc32.h
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_transport.c
+	"nrf_dfu_transport.h"
+	"nrf_log.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\dfu\nrf_dfu_utils.c
+	"nrf_dfu_utils.h"
+	<string.h>
+	"nrf_dfu_settings.h"
+	"nrf_dfu_mbr.h"
+	"nrf_bootloader_app_start.h"
+	"nrf_bootloader_info.h"
+	"crc32.h"
+	"nrf_log.h"
+	"app_timer.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader.c
+	"nrf_bootloader.h"
+	"compiler_abstraction.h"
+	"nrf.h"
+	"nrf_bootloader_app_start.h"
+	"nrf_log.h"
+	"nrf_dfu.h"
+	"nrf_error.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader.h
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_app_start.c
+	<stdint.h>
+	"nrf_bootloader_app_start.h"
+	"nrf_log.h"
+	"nrf_dfu_mbr.h"
+	"nrf_sdm.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_app_start_asm.c
+	<stdint.h>
+	"compiler_abstraction.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_app_start_nosd.c
+	<stdint.h>
+	"nrf_bootloader_app_start.h"
+	"nrf_log.h"
+	"nrf_dfu_mbr.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\bootloader\nrf_bootloader_info.c
+	"nrf_bootloader_info.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\button\app_button.c
+	"sdk_common.h"
+	"app_button.h"
+	"app_timer.h"
+	"app_error.h"
+	"nrf_drv_gpiote.h"
+	"nrf_assert.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\crc32\crc32.c
+	"sdk_common.h"
+	"crc32.h"
+	<stdlib.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\fds\fds.c
+	"sdk_common.h"
+	"fds.h"
+	"fds_internal_defs.h"
+	<stdint.h>
+	<string.h>
+	<stdbool.h>
+	"fstorage.h"
+	"nrf_error.h"
+	"crc16.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\fds\fds_internal_defs.h
+	"sdk_config.h"
+	<stdint.h>
+	<stdbool.h>
+	"nrf_soc.h"
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\fifo\app_fifo.c
+	"sdk_common.h"
+	"app_fifo.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\fifo\app_fifo.h
+	<stdint.h>
+	<stdlib.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\fstorage\fstorage.c
+	"sdk_common.h"
+	"fstorage.h"
+	"fstorage_internal_defs.h"
+	<stdint.h>
+	<string.h>
+	<stdbool.h>
+	"nrf_error.h"
+	"nrf_soc.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\gpiote\app_gpiote.c
+	"sdk_common.h"
+	"app_gpiote.h"
+	"nrf_drv_gpiote.h"
+	"nrf_bitmask.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\pwm\app_pwm.c
+	"sdk_common.h"
+	"app_pwm.h"
+	"nrf_drv_timer.h"
+	"nrf_drv_ppi.h"
+	"nrf_drv_common.h"
+	"nrf_drv_gpiote.h"
+	"nrf_gpiote.h"
+	"nrf_gpio.h"
+	"app_util_platform.h"
+	"nrf_assert.h"
+
+1489147328 c:\nrf5_sdk_13\components\libraries\pwm\app_pwm.h
+	<stdint.h>
+	"sdk_errors.h"
+	"nrf_drv_timer.h"
+	"nrf_drv_common.h"
+	"nrf_drv_ppi.h"
+	"nrf_peripherals.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\queue\nrf_queue.c
+	"sdk_common.h"
+	"nrf_queue.h"
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\scheduler\app_scheduler.c
+	"sdk_common.h"
+	"app_scheduler.h"
+	<stdlib.h>
+	<stdint.h>
+	<string.h>
+	"nrf_soc.h"
+	"nrf_assert.h"
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\timer\app_timer.c
+	"sdk_common.h"
+	"app_timer.h"
+	<stdlib.h>
+	"nrf.h"
+	"nrf_soc.h"
+	"app_error.h"
+	"nrf_delay.h"
+	"app_util_platform.h"
+	"app_scheduler.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\util\app_error.c
+	"nrf.h"
+	<stdio.h>
+	"app_error.h"
+	"nordic_common.h"
+	"sdk_errors.h"
+	"nrf_log.h"
+	"nrf_log_ctrl.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\util\app_util_platform.c
+	"app_util_platform.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\libraries\util\nrf_assert.c
+	"nrf_assert.h"
+	"app_error.h"
+	"nordic_common.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\softdevice\common\softdevice_handler\softdevice_handler.c
+	"softdevice_handler.h"
+	<stdlib.h>
+	<stdint.h>
+	<stdio.h>
+	<string.h>
+	"nrf.h"
+	"nrf_assert.h"
+	"nrf_soc.h"
+	"nrf_nvic.h"
+	"sdk_common.h"
+	"nrf_drv_clock.h"
+	"nrf_drv_power.h"
+	"app_error.h"
+	"nrf_drv_rng.h"
+	"nrf_log.h"
+	"ant_interface.h"
+	"ant_interface.h"
+	"ble.h"
+
+1418835354 source:c:\segger\rtt\rtt\segger_rtt.c
+	"SEGGER_RTT_Conf.h"
+	"SEGGER_RTT.h"
+	<string.h>
+
+1418835368 c:\segger\rtt\rtt\segger_rtt_conf.h
+
+1418835364 source:c:\segger\rtt\rtt\segger_rtt_printf.c
+	"SEGGER_RTT.h"
+	"SEGGER_RTT_Conf.h"
+	<stdlib.h>
+	<stdarg.h>
+
+1489147328 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_sd_def.h
+	<stdint.h>
+
+1479900330 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\softdevice\include\nrf52\nrf_mbr.h
+	"nrf_svc.h"
+	<stdint.h>
+
+1492976140 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble.h
+	"ble_ranges.h"
+	"ble_types.h"
+	"ble_gap.h"
+	"ble_l2cap.h"
+	"ble_gatt.h"
+	"ble_gattc.h"
+	"ble_gatts.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_ranges.h
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_types.h
+	<stdint.h>
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_gap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_svc.h
+	"stdint.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_l2cap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_err.h"
+	"nrf_svc.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_err.h
+	"nrf_error.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_error.h
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_gatt.h
+	"ble_types.h"
+	"ble_ranges.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_gattc.h
+	"ble_gatt.h"
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+	"nrf_error.h"
+	"nrf.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_gatts.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_l2cap.h"
+	"ble_gap.h"
+	"ble_gatt.h"
+	"nrf_svc.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_sdm.h
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_soc.h"
+	"nrf_error_sdm.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_soc.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_error_soc.h
+	"nrf_error.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_error_sdm.h
+	"nrf_error.h"
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf_nvic.h
+	<stdint.h>
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1489144048 c:\nrf5_sdk_13\components\softdevice\s132\headers\nrf52\nrf_mbr.h
+	"nrf_svc.h"
+	<stdint.h>
+
+1488789336 c:\nrf5_sdk_13\components\softdevice\s132\headers\ble_hci.h
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_ecb.c
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+	"nrf.h"
+	"nrf_ecb.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_ecb.h
+	<stdint.h>
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_nvmc.c
+	<stdbool.h>
+	"nrf.h"
+	"nrf_nvmc.h"
+
+1489147328 source:c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_saadc.c
+	"sdk_config.h"
+	"nrf_saadc.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble.h
+	"ble_ranges.h"
+	"ble_types.h"
+	"ble_gap.h"
+	"ble_l2cap.h"
+	"ble_gatt.h"
+	"ble_gattc.h"
+	"ble_gatts.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_ranges.h
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_types.h
+	<stdint.h>
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_gap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_svc.h
+	"stdint.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_l2cap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_err.h"
+	"nrf_svc.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_err.h
+	"nrf_error.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_error.h
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_gatt.h
+	"ble_types.h"
+	"ble_ranges.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_gattc.h
+	"ble_gatt.h"
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+	"nrf_error.h"
+	"nrf.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\ble_gatts.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_l2cap.h"
+	"ble_gap.h"
+	"ble_gatt.h"
+	"nrf_svc.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_sdm.h
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_soc.h"
+	"nrf_error_sdm.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_soc.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_error_soc.h
+	"nrf_error.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_error_sdm.h
+	"nrf_error.h"
+
+1479900330 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_5.0.0-1.alpha_api\include\nrf_nvic.h
+	<stdint.h>
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1493076473 c:\myprojects\bluenodes\firmware.emb\bluenodes_s132_sdk13_085_nrf52\startup_config.h
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble.h
+	"ble_ranges.h"
+	"ble_types.h"
+	"ble_gap.h"
+	"ble_l2cap.h"
+	"ble_gatt.h"
+	"ble_gattc.h"
+	"ble_gatts.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_ranges.h
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_types.h
+	<stdint.h>
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_gap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_svc.h
+	"stdint.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_l2cap.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_err.h"
+	"nrf_svc.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_err.h
+	"nrf_error.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_error.h
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_gatt.h
+	"ble_types.h"
+	"ble_ranges.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_gattc.h
+	"ble_gatt.h"
+	"ble_types.h"
+	"ble_ranges.h"
+	"nrf_svc.h"
+	"nrf_error.h"
+	"nrf.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_gatts.h
+	"ble_types.h"
+	"ble_ranges.h"
+	"ble_l2cap.h"
+	"ble_gap.h"
+	"ble_gatt.h"
+	"nrf_svc.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_sdm.h
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_soc.h"
+	"nrf_error_sdm.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_soc.h
+	<stdint.h>
+	<stdbool.h>
+	"nrf_svc.h"
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_error_soc.h
+	"nrf_error.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_error_sdm.h
+	"nrf_error.h"
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_nvic.h
+	<stdint.h>
+	"nrf.h"
+	"nrf_error_soc.h"
+
+1489147328 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\nrf_sd_def.h
+	<stdint.h>
+
+1489062282 c:\nrf5_sdk_13\components\softdevice\s132_nrf52_4.0.2_api\include\ble_hci.h
+
+1494880542 source:c:\nrf5_sdk_13\components\drivers_nrf\spi_master\nrf_drv_spi.c
+	"sdk_common.h"
+	"nrf_drv_spi.h"
+	"nrf_drv_common.h"
+	"nrf_gpio.h"
+	"nrf_assert.h"
+	"app_util_platform.h"
+	"nrf_log.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\spi_master\nrf_drv_spi.h
+	"nordic_common.h"
+	"sdk_config.h"
+	"nrf_peripherals.h"
+	"nrf_spi.h"
+	"nrf_spim.h"
+	"sdk_errors.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_spi.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+	"nrf.h"
+
+1489147328 c:\nrf5_sdk_13\components\drivers_nrf\hal\nrf_spim.h
+	<stddef.h>
+	<stdbool.h>
+	<stdint.h>
+	"nrf.h"
+

@@ -1,0 +1,151 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".ControllerActivity">
+
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:keepScreenOn="true"
+        android:text="@string/connect_content"
+        android:textColor="#ffe5cfcb"
+        android:textSize="40sp"
+        android:textStyle="normal|bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="50dp"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/back_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_weight="1"
+                    android:onClick="onBackButton"
+                    android:text="@string/back_button" />
+
+                <TextView
+                    android:id="@+id/structureTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    android:shadowColor="#000"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="0.01"
+                    android:text="Title"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/home_button"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:onClick="onHomeButton"
+                    android:text="@string/home_button" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="420dp">
+                <de.bluenodes.bluenodescontroller.swipe.ExtendedSwipeListView xmlns:swipe="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/structureList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:listSelector="#00000000"
+                    swipe:swipeBackView="@+id/back"
+                    swipe:swipeCloseAllItemsWhenMoveList="true"
+                    swipe:swipeDrawableChecked="@drawable/choice_selected"
+                    swipe:swipeDrawableUnchecked="@drawable/choice_unselected"
+                    swipe:swipeFrontView="@+id/front"
+                    swipe:swipeMode="both"
+                    swipe:swipeOpenOnLongPress="false"
+                    swipe:swipeActionLeft="dismiss"
+                    swipe:swipeActionRight="reveal"
+                    swipe:swipeOffsetRight="257dp"
+                    android:layout_weight="2.01" />
+
+                <TextView
+                    android:id="@+id/empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="@string/no_structures"
+                    android:layout_weight="9.81"
+                    android:textSize="30dp"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="324dp"
+                    android:layout_height="34dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#ffe5cfcb"
+                    android:id="@+id/message"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/battery"
+                android:layout_width="49dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="left|top"
+                android:layout_marginLeft="@dimen/feature_horizontal_margin"
+                android:layout_marginTop="@dimen/feature_device_name_margin_top"
+                android:background="@drawable/battery"
+                android:freezesText="true"
+                android:gravity="center"
+                android:text="@string/not_available"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/directdevice_name"
+                android:layout_gravity="center"
+                android:layout_weight="54.07"
+                android:text="Device"
+                android:textSize="30dp"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

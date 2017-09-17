@@ -1,0 +1,30 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="featureTitleColor">#939597</color>
+    <color name="actionBarColor">#009CDE</color>
+    <color name="actionBarColorDark">#0081B7</color>
+    <color name="backgroundColor">#E6E7E8</color>
+    <color name="orange">#DC582A</color>
+    <color name="dark_orange">#9E3F1E</color>
+    <color name="light_orange">#EFB5A0</color>
+    <color name="headerBackgroundColor">#009ada</color>
+    <color name="headerBackgroundColorDark">#0081B7</color>
+    <color name="headerTextColor">#FFFFFF</color>
+    <color name="actionBarMenuTextColor">#FFFFFF</color>
+    <color name="darkGray">#AAABAF</color>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <color name="background_app">#dedede</color>
+
+    <color name="background_list_back">#e3e3e3</color>
+    <color name="background_list_front">#ffffff</color>
+    <color name="text_title">#444444</color>
+    <color name="text_description">#7e7e7e</color>
+
+    <color name="line">#ffbcbcbc</color>
+
+    <color name="background_new_tag">#ff0000</color>
+    <color name="text_new_tag">#ffffff</color>
+    <color name="intended_color">#ffffff</color>
+</resources>

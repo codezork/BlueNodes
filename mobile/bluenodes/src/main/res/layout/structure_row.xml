@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/back"
+        style="@style/ListBackContent"
+        android:tag="back" >
+
+        <ImageButton
+            android:id="@+id/edit_button"
+            android:src="@drawable/action_bar_icon_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="false"
+            android:background="#0000FF"
+            android:layout_alignParentEnd="false"
+            android:cropToPadding="false"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp" />
+
+        <ImageButton
+            android:id="@+id/delete_button"
+            android:src="@drawable/action_bar_icon_discard"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="left"
+            android:layout_toRightOf="@id/edit_button"
+            android:background="#ff0000"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/front"
+        style="@style/ListFrontContent"
+        android:orientation="vertical"
+        android:tag="front">
+
+        <ImageView
+            android:id="@+id/icon"
+            style="@style/ListImage"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/icon"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:paddingRight="50dp"></TextView>
+
+        <ImageView
+            android:id="@+id/isAssigned"
+            style="@style/ListImage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+    </RelativeLayout>
+</FrameLayout>

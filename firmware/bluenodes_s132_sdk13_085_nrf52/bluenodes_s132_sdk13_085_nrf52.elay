@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<EmBitz_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="gcc_nrf52832_s132_xxaa.ld" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="337" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="nrf52_common.ld" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1324" topLine="114" />
+		</Cursor>
+	</File>
+	<File name="Src\bas_adc.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1009" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="Src\bas_adc.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="145" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\bluenodes.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="720" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\boards.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="673" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\common.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="507" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\config.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1414" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\current_cube.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="528" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="Src\current_cube.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="333" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="Src\main.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14429" topLine="439" />
+		</Cursor>
+	</File>
+	<File name="Src\mesh.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="713" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Src\nrf_adv_conn.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4670" topLine="101" />
+		</Cursor>
+	</File>
+	<File name="Src\peripheral.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10146" topLine="290" />
+		</Cursor>
+	</File>
+	<File name="Src\peripheral.h" open="1" top="1" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="312" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\include\mesh_gatt.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3080" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\include\timeslot.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1854" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\include\toolchain.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2027" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\include\trickle.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2023" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\rbc_mesh.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2263" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\event_handler.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6921" topLine="152" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\fifo.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3518" topLine="42" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\mesh_aci.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9728" topLine="228" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\mesh_gatt.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9506" topLine="273" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\mesh_packet.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5032" topLine="131" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\rbc_mesh.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9405" topLine="260" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\serial_handler_uart.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7458" topLine="197" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\timeslot.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16232" topLine="410" />
+		</Cursor>
+	</File>
+	<File name="Src\rbc_mesh\src\transport_control.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6916" topLine="204" />
+		</Cursor>
+	</File>
+	<File name="Src\sdk_config.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="49951" topLine="2124" />
+		</Cursor>
+	</File>
+	<File name="Src\system_nrf52.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="startup_config.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="77" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="startup_nrf52.S" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="911" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\ble\ble_services\ble_bas\ble_bas.c" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9738" topLine="255" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\ble\ble_services\ble_bas\ble_bas.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5176" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\ble\common\ble_advdata.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3025" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\ble\common\ble_srv_common.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2560" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\device\compiler_abstraction.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="106" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\device\nrf.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2115" topLine="32" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\common\nrf_drv_common.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2366" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\common\nrf_drv_common.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3819" topLine="80" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\gpiote\nrf_drv_gpiote.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2627" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\hal\nrf_gpio.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2228" topLine="46" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\hal\nrf_saadc.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3292" topLine="71" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\ppi\nrf_drv_ppi.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5741" topLine="110" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\rng\nrf_drv_rng.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5550" topLine="159" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\saadc\nrf_drv_saadc.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11287" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\saadc\nrf_drv_saadc.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3369" topLine="57" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\spi_master\nrf_drv_spi.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2350" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\spi_master\nrf_drv_spi.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16867" topLine="349" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\drivers_nrf\timer\nrf_drv_timer.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4392" topLine="88" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\queue\nrf_queue.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2219" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\timer\app_timer.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33741" topLine="940" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\timer\app_timer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3230" topLine="109" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\util\app_error.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2993" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\util\app_error.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2629" topLine="44" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\libraries\util\nordic_common.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3133" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\common\softdevice_handler\softdevice_handler.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19217" topLine="542" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\common\softdevice_handler\softdevice_handler.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4804" topLine="243" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\s132_nrf52_4.0.2_API\include\ble.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5116" topLine="119" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\s132_nrf52_4.0.2_API\include\ble_gap.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="27697" topLine="401" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\s132_nrf52_4.0.2_API\include\ble_gatt.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2316" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\..\nRF5_SDK_13\components\softdevice\s132_nrf52_4.0.2_API\include\ble_gatts.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="11363" topLine="197" />
+		</Cursor>
+	</File>
+</EmBitz_layout_file>

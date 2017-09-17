@@ -1,0 +1,139 @@
+<resources>
+    <string name="company_name">Bluenodes</string>
+    <string name="app_name">Bluenodes Controller</string>
+    <string name="font_path">fonts/trebucbd.ttf</string>
+    <string name="normal_font_path">fonts/trebuc.ttf</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="action_about">About</string>
+    <string name="action_settings">Mesh Metadata</string>
+    <string name="action_connect">CONNECT</string>
+    <string name="action_select">SELECT DEVICE</string>
+    <string name="action_disconnect">DISCONNECT</string>
+
+    <string name="battery">%d%%</string>
+    <string name="progress">%d%%</string>
+    <string name="not_available">n/a</string>
+    <string name="no_ble">Device doesn\'t have BLE support!</string>
+    <string name="no_apps">No profiles found.</string>
+    <string name="not_supported">The device does not have required services.</string>
+    <string name="no_application">Web Browser application is not available.</string>
+    <string name="no_application_play">Google Play not installed.</string>
+
+    <string name="connect_button">connect</string>
+    <string name="connect_content">Control your home</string>
+    <string name="bonding">Bonding with the device&#8230;</string>
+    <string name="bonded">The device is now bonded.</string>
+    <string name="scanner_title">Select device:</string>
+    <string name="scanner_empty">No device found</string>
+    <string name="scanner_action_scan">Scan</string>
+    <string name="scanner_action_cancel">Cancel</string>
+    <string name="scanner_subtitle_bonded">BONDED DEVICES:</string>
+    <string name="scanner_subtitle__not_bonded">AVAILABLE DEVICES:</string>
+
+    <string name="dfu_unknown_name">unnamed device</string>
+
+    <string name="dfu_action_abort">Abort</string>
+
+    <string name="dfu_status_initializing">Initializing&#8230;</string>
+    <string name="dfu_status_connecting">Connecting&#8230;</string>
+    <string name="dfu_status_starting">Starting DFU&#8230;</string>
+    <string name="dfu_status_switching_to_dfu">Starting bootloader&#8230;</string>
+    <string name="dfu_status_uploading">Uploading&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Uploading part %d/%d&#8230;</string>
+    <string name="dfu_status_validating">Validating&#8230;</string>
+    <string name="dfu_status_disconnecting">Disconnecting&#8230;</string>
+    <string name="dfu_status_completed">Done</string>
+    <string name="dfu_status_aborted">Aborted</string>
+    <string name="dfu_status_aborting">Aborting&#8230;</string>
+    <string name="dfu_status_error">Upload failed</string>
+
+    <string name="dfu_status_connecting_msg">Connecting to %s&#8230;</string>
+    <string name="dfu_status_starting_msg">Initializing DFU process&#8230;</string>
+    <string name="dfu_status_switching_to_dfu_msg">Waiting for bootloader&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Transmitting components to %s&#8230;</string>
+    <string name="dfu_status_uploading_msg">Transmitting application to %s&#8230;</string>
+    <string name="dfu_status_validating_msg">Validating&#8230;</string>
+    <string name="dfu_status_completed_msg">Application has been send successfully.</string>
+    <string name="dfu_status_aborted_msg">Application upload has been canceled.</string>
+    <string name="dfu_status_disconnecting_msg">Disconnecting from %s&#8230;</string>
+    <string name="dfu_status_error_msg">DFU process failed.</string>
+    <string name="title_activity_splashscreen">splashscreen</string>
+
+    <string name="log" formatted="false">%1$tR:%1$tS.%1$tL</string>
+
+    <string name="about_title">About</string>
+    <string name="about_version">\n\nVersion: %s</string>
+    <string name="about_text">The BlueNodes Controller enables you to control your home via BlueNodes devices organized in a mesh network. &#169; 2015 by Joerg Riegel</string>
+    <string name="title_activity_bluenodes">BluenodesActivity</string>
+
+    <string name="bluenodes_feature_title">Bluenodes</string>
+
+    <string name="bluenodes_default_name">not connected</string>
+    <string name="notification_connected_message">%s is connected</string>
+    <string name="notification_action_connect">connect</string>
+    <string name="notification_action_disconnect">disconnect</string>
+    <string name="setDeviceAddress">Assign</string>
+
+    <string name="accessAddress">Access Address</string>
+    <string name="advertisementInterval">Advertisement Interval (ms)</string>
+    <string name="metadata_title">Mesh Metadata Settings</string>
+    <string name="valueCount">Value count</string>
+    <string name="channel">Channel</string>
+    <string name="deviceAddress">Device address</string>
+    <string name="advertisementIntervalError">the advertisement interval must be between 5 and 60000 ms</string>
+    <string name="channelError">the channel value must be between 1 and 39</string>
+    <string name="edit_entry">Edit</string>
+    <string name="delete_entry">Delete</string>
+    <string name="add_entry">Add</string>
+    <string name="structureId">ID</string>
+    <string name="structureName">Name</string>
+    <string name="structure_title">Structure</string>
+    <string name="duplicateIdError">Duplicate ID found</string>
+    <string name="newUnit">new unit</string>
+    <string name="no_structures">insert</string>
+    <string name="title_activity_structure">StructureActivity</string>
+    <string name="edit_save">Save</string>
+
+    <string name="BUILDING">Building</string>
+    <string name="FLOOR">Floor</string>
+    <string name="ROOM">Room</string>
+    <string name="NODE">BlueNode</string>
+    <string name="back_button">Back</string>
+    <string name="home_button">Home</string>
+    <string name="discard">Discard</string>
+    <string name="cleardata">Erase power data</string>
+
+    <string name="assign">Assign device</string>
+    <string name="power_statistics">Power management</string>
+    <string name="name_empty">Please maintain a name</string>
+    <string name="scanning">Scanning...</string>
+    <string name="confirm_new_assignment">Connected device has different device address</string>
+    <string name="confirm_overwrite">Are you sure to overwrite?</string>
+    <string name="title_activity_dimmer">DimmerActivity</string>
+
+    <string name="device_error">Device Error</string>
+    <string name="hardware_error">has hardware failure - disconnect device from power and try again later.</string>
+    <string name="overload_error">has overload error - disconnect your consumer as it overloads the device.</string>
+    <string name="overtemp_error">is overheated - disconnect device from power and try again later.</string>
+    <string name="comm_error">has communication error - if this error continuously appears, the devices environment is too noisy from EMF.</string>
+    <string name="overcurrent_error">has overcurrent error - disconnect the device from the defective consumer.</string>
+
+    <string name="are_you_shure">Are you sure to delete all historical power measurement data?</string>
+    <string name="setTime">Set device time</string>
+    <string name="title_activity_power">PowerActivity</string>
+
+    <string name="HOUR">Hour</string>
+    <string name="DAY">Day</string>
+    <string name="MONTH">Month</string>
+    <string name="YEAR">Year</string>
+    <string name="HISTORY">History</string>
+    <string name="SETTINGS">Settings</string>
+
+    <string name="powerLoading">Loading...</string>
+
+</resources>

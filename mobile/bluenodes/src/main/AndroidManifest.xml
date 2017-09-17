@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.bluenodes.bluenodescontroller"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="0.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="no.nordicsemi.android.LOG" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashscreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ControllerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.TranslucentStatusBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="de.bluenodes.bluenodescontroller.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StructureActivity"
+            android:parentActivityName=".ControllerActivity"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ControllerActivity" />
+        </activity>
+
+        <service
+            android:name=".BluenodesService"
+            android:label="@string/bluenodes_feature_title" />
+
+        <provider
+            android:name=".database.contentprovider.BluenodesContentProvider"
+            android:authorities="de.bluenodes.bluenodescontroller.database.contentprovider"
+            android:exported="false" />
+
+        <activity
+            android:name=".DimmerActivity"
+            android:label="@string/title_activity_dimmer"
+            android:parentActivityName=".ControllerActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.bluenodes.bluenodescontroller.ControllerActivity" />
+        </activity>
+        <activity
+            android:name=".PowerActivity"
+            android:label="@string/title_activity_power"
+            android:parentActivityName=".StructureActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.bluenodes.bluenodescontroller.StructureActivity" />
+        </activity>
+    </application>
+
+</manifest>
