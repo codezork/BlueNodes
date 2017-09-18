@@ -10,15 +10,15 @@ To understand the complete project read link:docs/details.adoc[Details].
 == Prerequisites
 
 === Hardware
-To read and modify schematics and pcb layout, you need to install gEDA (http://www.geda-project.org/) from: http://wiki.geda-project.org/geda:download. You have to copy the gEDA folder of this repo over your gEDA installation to add symbols and footprints that are added for this project. You have to add the bluenodes directory to the gEDA settings or copy footprints and symbols to an existing folder. 
+To read and modify schematics and pcb layout, you need to install gEDA (http://www.geda-project.org/) from: http://wiki.geda-project.org/geda:download. You have to copy the gEDA folder of this repo over your gEDA installation to add symbols and footprints that are needed for this project. You have to add the bluenodes directory to the gEDA settings or copy footprints and symbols to an existing gEDA symbol and footprint folder. 
 
-Gerber files of the latest version and images of the pcb are in the repo. The pcb is equipped from both sides with SMD parts 0402. The gerber files can directly be used to order a 4 layer pcb at a pcb manufacturer, e.g.: http://www.pcb-pool.com/.
+Gerber files of the latest version and images of the pcb are in the repo. The pcb is assembled from both sides with SMD parts mounting form 0402. The gerber files can directly be used to order a 4 layer pcb at a pcb manufacturer, e.g.: http://www.pcb-pool.com/.
 
 === Firmware
 If you want to upload new versions of the firmware to the BlueNodes hardware, you either need to have a J-Link debug probe from https://www.segger.com/products/debug-probes/j-link/ or you buy a Nordic development board and solder the connection yourself. See https://devzone.nordicsemi.com/question/80853/external-programming-using-nrf52-dk/. +
-The development board and all used parts with BlueNodes are available from Mouser Electronics http://www.mouser.de/. Order numbers for Mouser parts should be supplied in the schematics.
+The development board and all parts needed for BlueNodes are available from Mouser Electronics http://www.mouser.de/. Order numbers for Mouser parts should be supplied in the schematics.
 
-To compile the firmware, use EmBitz version 1.11. You can download it here: https://www.embitz.org/.
+To compile the firmware, use EmBitz from version 1.11. You can download it here: https://www.embitz.org/.
 
 === Android
 Get the latest version of Android Studio from https://developer.android.com/studio/index.html.
