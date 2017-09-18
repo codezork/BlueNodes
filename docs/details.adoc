@@ -51,10 +51,13 @@ VIPer™06 30 kHz PWM non-isolated buck converter circuit with 1.8V and 5V LDO out
 5 pin connector pad with Vdd, GND, GND detect, SWDIO and SWDCLK
 
 Block diagram
+
 image::bluenodes_block.png[Block diagram]
 
 Schematics
+
 image::bluenodes_actor_schematics.png[Schematics]
 
 SOC side
+
 image::pcb1.png[SOC side]
