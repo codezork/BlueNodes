@@ -1,1 +1,5 @@
-...coming soon...
+== Hardware
+image::bluenodes_block.png[Block diagram]
+
+image::bluenodes_actor_schematics.png[Schematics]
+
