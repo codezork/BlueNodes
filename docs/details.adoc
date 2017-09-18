@@ -57,7 +57,3 @@ image::bluenodes_block.png[Block diagram]
 Schematics
 
 image::bluenodes_actor_schematics.png[Schematics]
-
-SOC side
-
-image::pcb1.png[SOC side]
